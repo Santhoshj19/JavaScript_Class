@@ -10,7 +10,7 @@
 // color.push("orange");
 // console.log(color);
 // color.pop();
-// console.log(color);
+// console.log(color) ;
 // color.shift();
 // console.log(color);
 // color.unshift();
