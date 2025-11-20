@@ -42,6 +42,10 @@
 //   console.log("function");
 // }
 
-console.log("10" * "5");
-console.log(typeof String(123));
+// console.log("10" * "5");
+// console.log(typeof String(123));
+
+console.log(x);
+let x=1;
+
 
