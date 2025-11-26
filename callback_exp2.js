@@ -9,3 +9,4 @@ function balancemoney(value) {
 }
 
 addmoney(3000, balancemoney);
+
