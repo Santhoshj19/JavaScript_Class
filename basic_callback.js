@@ -15,13 +15,13 @@
 
 //asynchronous execution with callback
 
-function first(callback) {
+function first(name, callback) {
   setTimeout(() => {
-    console.log("First executed");
+    console.log("First executed " + name);
     callback();
-  }, 3000);
+  }, 2000);
 }
 function second() {
   console.log("Second executed");
 }
-first(second);
+first("Santhosh", second);

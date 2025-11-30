@@ -1,23 +1,23 @@
 //asynchronous execution without callback
 
-// function fetchdata() {
-//   setTimeout(() => {
-//     console.log("Fetched data");
-//   }, 4000);
-// }
-// function arrangedata() {
-//   setTimeout(() => {
-//     console.log("Arranged data");
-//   }, 3000);
-// }
-// function displaydata() {
-//   setTimeout(() => {
-//     console.log("Displayed data");
-//   }, 2000);
-// }
-// fetchdata();
-// arrangedata();
-// displaydata();
+function fetchdata() {
+  setTimeout(() => {
+    console.log("Fetched data");
+  }, 4000);
+}
+function arrangedata() {
+  setTimeout(() => {
+    console.log("Arranged data");
+  }, 3000);
+}
+function displaydata() {
+  setTimeout(() => {
+    console.log("Displayed data");
+  }, 2000);
+}
+fetchdata();
+arrangedata();
+displaydata();
 
 //asynchronous execution with callback
 
